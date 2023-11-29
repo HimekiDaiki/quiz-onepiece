@@ -1,0 +1,50 @@
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background-color: rgb(101, 69, 143);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button, input[type=button]{
+ border: 0;
+ height: 100px;
+ width: 200px;
+ font-size: 16px;
+ background-color: rgb(21, 9, 155);
+ color: white;
+ margin: 10px;
+ border-radius: 10px;
+}
+
+button:hover, input[type=button]:hover{
+ cursor: pointer;
+}
+
+main{
+ display: flex;
+ flex-direction: column;
+ width: 600px;
+ height: 400px;
+ padding: 50px;
+ background-color: rgb(13, 129, 196);   
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;  
+}
+
+footer{
+ margin-top: 30px;
+ text-align: right;
+ width: 550px;
+}
+
+input[type=button]:focus{
+background-color: red;
+}
+
+#correto:focus{background-color: green;}
